@@ -14,6 +14,13 @@ on:
         description: 'Environment to deploy to'
         type: environment
         required: true
+      someVar:
+        description: 'test variable'
+        type: choice
+        options:
+          - '1'
+          - Some other
+          - Three
 
 
 jobs:
